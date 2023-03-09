@@ -90,6 +90,9 @@ int main(){
     n->checkNode();
     n->modifyNode(7);
     n->checkNode();
+
+    Collector collector;
+    collector.hola();
 }
 
 

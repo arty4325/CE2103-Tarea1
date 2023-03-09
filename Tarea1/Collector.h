@@ -7,6 +7,7 @@
 
 class Collector{
 public:
+    Collector();
     void hola();
 };
 #endif //CE2103_TAREA1_COLLECTOR_H
