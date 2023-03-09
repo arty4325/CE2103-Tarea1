@@ -61,6 +61,18 @@ build CMakeFiles/Tarea1.dir/Collector.cpp.o: CXX_COMPILER__Tarea1_Debug /home/os
   OBJECT_DIR = CMakeFiles/Tarea1.dir
   OBJECT_FILE_DIR = CMakeFiles/Tarea1.dir
 
+build CMakeFiles/Tarea1.dir/ListaSimple.cpp.o: CXX_COMPILER__Tarea1_Debug /home/oscaraad/TEC/2023SEMI/Datos$ II/CE2103-Tarea1/Tarea1/ListaSimple.cpp || cmake_object_order_depends_target_Tarea1
+  DEP_FILE = CMakeFiles/Tarea1.dir/ListaSimple.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  OBJECT_DIR = CMakeFiles/Tarea1.dir
+  OBJECT_FILE_DIR = CMakeFiles/Tarea1.dir
+
+build CMakeFiles/Tarea1.dir/Node.cpp.o: CXX_COMPILER__Tarea1_Debug /home/oscaraad/TEC/2023SEMI/Datos$ II/CE2103-Tarea1/Tarea1/Node.cpp || cmake_object_order_depends_target_Tarea1
+  DEP_FILE = CMakeFiles/Tarea1.dir/Node.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  OBJECT_DIR = CMakeFiles/Tarea1.dir
+  OBJECT_FILE_DIR = CMakeFiles/Tarea1.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Tarea1
@@ -69,7 +81,7 @@ build CMakeFiles/Tarea1.dir/Collector.cpp.o: CXX_COMPILER__Tarea1_Debug /home/os
 #############################################
 # Link the executable Tarea1
 
-build Tarea1: CXX_EXECUTABLE_LINKER__Tarea1_Debug CMakeFiles/Tarea1.dir/main.cpp.o CMakeFiles/Tarea1.dir/Collector.cpp.o
+build Tarea1: CXX_EXECUTABLE_LINKER__Tarea1_Debug CMakeFiles/Tarea1.dir/main.cpp.o CMakeFiles/Tarea1.dir/Collector.cpp.o CMakeFiles/Tarea1.dir/ListaSimple.cpp.o CMakeFiles/Tarea1.dir/Node.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Tarea1.dir
   POST_BUILD = :

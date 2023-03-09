@@ -4,11 +4,13 @@
 #include "Node.h"
 #include "ListaSimple.h"
 #include <iostream>
+#include "Collector.h"
 
 using namespace std;
 
 ListaSimple::ListaSimple() {
     this->head = nullptr;
+    Collector collector;
 }
 Node* ListaSimple::getHead() {
     return this->head;
@@ -20,6 +22,15 @@ void ListaSimple::insertHead(int value){
     Node* newNode = new Node(value);
     newNode -> next = this -> head;
     this -> head = newNode;
+}
+void *ListaSimple::operator new(size_t size){
+
+
+
+}
+
+void ListaSimple::operator delete(void* ptr) noexcept{
+
 }
 void ListaSimple::printList(){
     Node* current = this->head;

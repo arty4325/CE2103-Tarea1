@@ -20,7 +20,7 @@ int main(){
     n->checkNode();
 
     Collector collector;
-    collector.hola();
+
 }
 
 
