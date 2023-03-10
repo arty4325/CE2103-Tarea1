@@ -24,5 +24,7 @@ public:
     //int checkAvailableDirections();
     Node* deleteDirections();
     bool isEmpty();
+    Node* getHead();
+    void printCollector();
 };
 #endif //CE2103_TAREA1_COLLECTOR_H

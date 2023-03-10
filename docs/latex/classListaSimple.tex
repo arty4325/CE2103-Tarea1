@@ -1,39 +1,72 @@
 \hypertarget{classListaSimple}{}\doxysection{Lista\+Simple Class Reference}
 \label{classListaSimple}\index{ListaSimple@{ListaSimple}}
-
-
-{\ttfamily \#include $<$Lista\+Simple.\+h$>$}
-
 \doxysubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{classListaSimple_aff6daa1f83e4e71b6f92d3ce5b000fb5}\label{classListaSimple_aff6daa1f83e4e71b6f92d3ce5b000fb5}} 
-\mbox{\hyperlink{classNode}{Node}} $\ast$ {\bfseries get\+Head} ()
-\item 
-\mbox{\Hypertarget{classListaSimple_ad6236f5d2c7179e267fd091228605a46}\label{classListaSimple_ad6236f5d2c7179e267fd091228605a46}} 
-void {\bfseries set\+Head} (\mbox{\hyperlink{classNode}{Node}} $\ast$new\+Head)
-\item 
-\mbox{\Hypertarget{classListaSimple_ac5f82dfb76e78592df5b80883ea1484e}\label{classListaSimple_ac5f82dfb76e78592df5b80883ea1484e}} 
-void {\bfseries insert\+Head} (int value)
-\item 
+\mbox{\Hypertarget{classListaSimple_a2f27968f006a14916e4457f01b8f48dd}\label{classListaSimple_a2f27968f006a14916e4457f01b8f48dd}} 
+{\bfseries Lista\+Simple} ()
+\begin{DoxyCompactList}\small\item\em Método constructor de \mbox{\hyperlink{classListaSimple}{Lista\+Simple}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classNode}{Node}} $\ast$ \mbox{\hyperlink{classListaSimple_aff6daa1f83e4e71b6f92d3ce5b000fb5}{get\+Head}} ()
+\begin{DoxyCompactList}\small\item\em Permite obtener el head de una lista. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classListaSimple_ad6236f5d2c7179e267fd091228605a46}{set\+Head}} (\mbox{\hyperlink{classNode}{Node}} $\ast$new\+Head)
+\begin{DoxyCompactList}\small\item\em Permite cambiar el valor de head. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classListaSimple_ac5f82dfb76e78592df5b80883ea1484e}{insert\+Head}} (int value)
+\begin{DoxyCompactList}\small\item\em Método que permite añadir nuevos nodos a la lista. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classListaSimple_a144ba4f73f0c4aa65db5058c54c7d4d5}\label{classListaSimple_a144ba4f73f0c4aa65db5058c54c7d4d5}} 
+void {\bfseries delete\+Head} ()
+\begin{DoxyCompactList}\small\item\em Método que permite eliminar nodos de la lista. \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{classListaSimple_a88ec5a1587a17c5d80ff3a7fcca9c411}\label{classListaSimple_a88ec5a1587a17c5d80ff3a7fcca9c411}} 
 void {\bfseries print\+List} ()
-\item 
-\mbox{\Hypertarget{classListaSimple_a280f6f2d1254008d0e36d6c9ed41a85b}\label{classListaSimple_a280f6f2d1254008d0e36d6c9ed41a85b}} 
-void $\ast$ {\bfseries operator new} (size\+\_\+t size)
-\item 
-\mbox{\Hypertarget{classListaSimple_a541f49b6a97d76cb2ca33f7d898d389b}\label{classListaSimple_a541f49b6a97d76cb2ca33f7d898d389b}} 
-void {\bfseries operator delete} (void $\ast$ptr) noexcept
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Método que permite mostrar los valores de la lista. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
-\doxysubsection{Detailed Description}
-\begin{DoxyAuthor}{Authors}
-Jorge Guillen y Oscar Acuna 
-\end{DoxyAuthor}
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classListaSimple_aff6daa1f83e4e71b6f92d3ce5b000fb5}\label{classListaSimple_aff6daa1f83e4e71b6f92d3ce5b000fb5}} 
+\index{ListaSimple@{ListaSimple}!getHead@{getHead}}
+\index{getHead@{getHead}!ListaSimple@{ListaSimple}}
+\doxysubsubsection{\texorpdfstring{getHead()}{getHead()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classNode}{Node}} $\ast$ Lista\+Simple\+::get\+Head (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Permite obtener el head de una lista. 
+
+\begin{DoxyReturn}{Returns}
+Retorna el head de la lista 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classListaSimple_ac5f82dfb76e78592df5b80883ea1484e}\label{classListaSimple_ac5f82dfb76e78592df5b80883ea1484e}} 
+\index{ListaSimple@{ListaSimple}!insertHead@{insertHead}}
+\index{insertHead@{insertHead}!ListaSimple@{ListaSimple}}
+\doxysubsubsection{\texorpdfstring{insertHead()}{insertHead()}}
+{\footnotesize\ttfamily void Lista\+Simple\+::insert\+Head (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+
+
+Método que permite añadir nuevos nodos a la lista. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Valor que se contendrá en el nodo creado \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classListaSimple_ad6236f5d2c7179e267fd091228605a46}\label{classListaSimple_ad6236f5d2c7179e267fd091228605a46}} 
+\index{ListaSimple@{ListaSimple}!setHead@{setHead}}
+\index{setHead@{setHead}!ListaSimple@{ListaSimple}}
+\doxysubsubsection{\texorpdfstring{setHead()}{setHead()}}
+{\footnotesize\ttfamily void Lista\+Simple\+::set\+Head (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classNode}{Node}} $\ast$}]{new\+Head }\end{DoxyParamCaption})}
+
+
+
+Permite cambiar el valor de head. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Head} & Nuevo valor que tomará head \\
+\hline
+\end{DoxyParams}
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-/home/oscaraad/\+TEC/2023\+SEMI/\+Datos II/\+CE2103-\/\+Tarea1/\+Tarea1/Lista\+Simple.\+h\item 
-/home/oscaraad/\+TEC/2023\+SEMI/\+Datos II/\+CE2103-\/\+Tarea1/\+Tarea1/Lista\+Simple.\+cpp\end{DoxyCompactItemize}
+/home/oscaraad/\+TEC/2023\+SEMI/\+Datos II/\+CE2103-\/\+Tarea1/\+Tarea1/\mbox{\hyperlink{ListaSimple_8h}{Lista\+Simple.\+h}}\item 
+/home/oscaraad/\+TEC/2023\+SEMI/\+Datos II/\+CE2103-\/\+Tarea1/\+Tarea1/\mbox{\hyperlink{ListaSimple_8cpp}{Lista\+Simple.\+cpp}}\end{DoxyCompactItemize}

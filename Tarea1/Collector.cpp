@@ -35,9 +35,17 @@ void Collector::addDirections(int &value) {
  * @return Devuelve la dirección que se empleará
  */
 Node* Collector::deleteDirections(){
-    Node* temp = head;
-    this -> head = head -> next;
-    return temp;
+    if (head == nullptr) {
+        return nullptr;
+    } else {
+        Node* temp = head;
+        head = head->next;
+        return temp;
+    }
+}
+
+Node* Collector::getHead(){
+    cout << this->head << endl;
 }
 
 /**
@@ -56,6 +64,14 @@ bool Collector::isEmpty(){
     }
     else {
         return true;
+    }
+}
+
+void Collector::printCollector(){
+    Node* current = this -> head;
+    while(current != nullptr){
+        cout << current << endl;
+        current = current -> next;
     }
 }
 

@@ -3,18 +3,62 @@
 \doxysubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
+\mbox{\Hypertarget{classCollector_ad60b06491094b8fddf25502cf162cdf6}\label{classCollector_ad60b06491094b8fddf25502cf162cdf6}} 
+{\bfseries Collector} ()
+\begin{DoxyCompactList}\small\item\em Método constructor de \mbox{\hyperlink{classCollector}{Collector}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCollector_a63586161103d0e0c31c246e79d4f16e6}{add\+Directions}} (int \&Direction)
+\begin{DoxyCompactList}\small\item\em Este método añade las direcciones que se desean reciclar a la lista de \mbox{\hyperlink{classCollector}{Collector}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classNode}{Node}} $\ast$ \mbox{\hyperlink{classCollector_a34b3a17bfff38087f1eb3151501fb9c4}{delete\+Directions}} ()
+\begin{DoxyCompactList}\small\item\em Este método extrae una de las direcciones que se pueden reutilizar. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classCollector_adca392da66de96fa7c4b49ebd35354ab}{is\+Empty}} ()
+\begin{DoxyCompactList}\small\item\em Método que comprueba si \mbox{\hyperlink{classCollector}{Collector}} está vacío o no. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
 \mbox{\Hypertarget{classCollector_a63586161103d0e0c31c246e79d4f16e6}\label{classCollector_a63586161103d0e0c31c246e79d4f16e6}} 
-void {\bfseries add\+Directions} (int \&Direction)
-\item 
-\mbox{\Hypertarget{classCollector_ab52f93e4396b0d255144b9142804c6c5}\label{classCollector_ab52f93e4396b0d255144b9142804c6c5}} 
-int $\ast$ {\bfseries delete\+Directions} ()
-\item 
+\index{Collector@{Collector}!addDirections@{addDirections}}
+\index{addDirections@{addDirections}!Collector@{Collector}}
+\doxysubsubsection{\texorpdfstring{addDirections()}{addDirections()}}
+{\footnotesize\ttfamily void Collector\+::add\+Directions (\begin{DoxyParamCaption}\item[{int \&}]{value }\end{DoxyParamCaption})}
+
+
+
+Este método añade las direcciones que se desean reciclar a la lista de \mbox{\hyperlink{classCollector}{Collector}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Puntero que contiene la dirección que se reciclará \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classCollector_a34b3a17bfff38087f1eb3151501fb9c4}\label{classCollector_a34b3a17bfff38087f1eb3151501fb9c4}} 
+\index{Collector@{Collector}!deleteDirections@{deleteDirections}}
+\index{deleteDirections@{deleteDirections}!Collector@{Collector}}
+\doxysubsubsection{\texorpdfstring{deleteDirections()}{deleteDirections()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classNode}{Node}} $\ast$ Collector\+::delete\+Directions (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Este método extrae una de las direcciones que se pueden reutilizar. 
+
+\begin{DoxyReturn}{Returns}
+Devuelve la dirección que se empleará 
+\end{DoxyReturn}
 \mbox{\Hypertarget{classCollector_adca392da66de96fa7c4b49ebd35354ab}\label{classCollector_adca392da66de96fa7c4b49ebd35354ab}} 
-bool {\bfseries is\+Empty} ()
-\end{DoxyCompactItemize}
+\index{Collector@{Collector}!isEmpty@{isEmpty}}
+\index{isEmpty@{isEmpty}!Collector@{Collector}}
+\doxysubsubsection{\texorpdfstring{isEmpty()}{isEmpty()}}
+{\footnotesize\ttfamily bool Collector\+::is\+Empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Método que comprueba si \mbox{\hyperlink{classCollector}{Collector}} está vacío o no. 
+
+\begin{DoxyReturn}{Returns}
+Valor booleano 
+\end{DoxyReturn}
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-/home/oscaraad/\+TEC/2023\+SEMI/\+Datos II/\+CE2103-\/\+Tarea1/\+Tarea1/Collector.\+h\item 
-/home/oscaraad/\+TEC/2023\+SEMI/\+Datos II/\+CE2103-\/\+Tarea1/\+Tarea1/Collector.\+cpp\end{DoxyCompactItemize}
+/home/oscaraad/\+TEC/2023\+SEMI/\+Datos II/\+CE2103-\/\+Tarea1/\+Tarea1/\mbox{\hyperlink{Collector_8h}{Collector.\+h}}\item 
+/home/oscaraad/\+TEC/2023\+SEMI/\+Datos II/\+CE2103-\/\+Tarea1/\+Tarea1/\mbox{\hyperlink{Collector_8cpp}{Collector.\+cpp}}\end{DoxyCompactItemize}

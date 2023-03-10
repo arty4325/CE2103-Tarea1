@@ -8,15 +8,14 @@ digraph "/home/oscaraad/TEC/2023SEMI/Datos II/CE2103-Tarea1/Tarea1/main.cpp"
   Node1 -> Node2 [color="steelblue1",style="solid"];
   Node2 [label="iostream",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node1 -> Node3 [color="steelblue1",style="solid"];
-  Node3 [label="Node.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$Node_8h_source.html",tooltip=" "];
+  Node3 [label="Node.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$Node_8h.html",tooltip="En esta header se crea la clase Node."];
   Node3 -> Node4 [color="steelblue1",style="solid"];
   Node4 [label="cstddef",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
-  Node3 -> Node5 [color="steelblue1",style="solid"];
-  Node5 [label="Collector.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$Collector_8h_source.html",tooltip=" "];
-  Node5 -> Node3 [color="steelblue1",style="solid"];
-  Node1 -> Node6 [color="steelblue1",style="solid"];
-  Node6 [label="ListaSimple.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$ListaSimple_8h_source.html",tooltip=" "];
-  Node6 -> Node3 [color="steelblue1",style="solid"];
-  Node6 -> Node5 [color="steelblue1",style="solid"];
   Node1 -> Node5 [color="steelblue1",style="solid"];
+  Node5 [label="ListaSimple.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$ListaSimple_8h.html",tooltip="En esta header se crea la clase ListaSimple."];
+  Node5 -> Node3 [color="steelblue1",style="solid"];
+  Node5 -> Node6 [color="steelblue1",style="solid"];
+  Node6 [label="Collector.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$Collector_8h.html",tooltip="En esta header se crea la clase Collector."];
+  Node6 -> Node3 [color="steelblue1",style="solid"];
+  Node1 -> Node6 [color="steelblue1",style="solid"];
 }

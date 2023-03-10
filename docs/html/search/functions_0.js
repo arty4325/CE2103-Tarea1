@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['main_0',['main',['../main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main.cpp']]]
+  ['adddirections_0',['addDirections',['../classCollector.html#a63586161103d0e0c31c246e79d4f16e6',1,'Collector']]]
 ];

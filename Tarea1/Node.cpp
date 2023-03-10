@@ -55,14 +55,13 @@ void Node::modifyNode(int value){
  */
 void *Node::operator new(size_t size){
     if (!collector.isEmpty()){
-        cout << "Se creo nueva direccion " << endl;
+
         void * p = ::operator new(size);
-        cout << p << " NUEVO" << endl;
+        cout << "Se uso memoria nueva : " << p << endl;
         return p;
     } else {
-        cout << "Se hizo uso de una direccion vieja " << endl;
         void * p = reinterpret_cast<void *>(collector.deleteDirections());
-        cout << p << " VIEJO" << endl;
+        cout << "Se uso memoria vieja: " << p << endl;
         return p;
     }
 }

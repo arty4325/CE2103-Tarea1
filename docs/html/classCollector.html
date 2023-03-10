@@ -78,19 +78,90 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a63586161103d0e0c31c246e79d4f16e6"><td class="memItemLeft" align="right" valign="top"><a id="a63586161103d0e0c31c246e79d4f16e6" name="a63586161103d0e0c31c246e79d4f16e6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>addDirections</b> (int &amp;Direction)</td></tr>
+<tr class="memitem:ad60b06491094b8fddf25502cf162cdf6"><td class="memItemLeft" align="right" valign="top"><a id="ad60b06491094b8fddf25502cf162cdf6" name="ad60b06491094b8fddf25502cf162cdf6"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Collector</b> ()</td></tr>
+<tr class="memdesc:ad60b06491094b8fddf25502cf162cdf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Método constructor de <a class="el" href="classCollector.html">Collector</a>. <br /></td></tr>
+<tr class="separator:ad60b06491094b8fddf25502cf162cdf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63586161103d0e0c31c246e79d4f16e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCollector.html#a63586161103d0e0c31c246e79d4f16e6">addDirections</a> (int &amp;Direction)</td></tr>
+<tr class="memdesc:a63586161103d0e0c31c246e79d4f16e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Este método añade las direcciones que se desean reciclar a la lista de <a class="el" href="classCollector.html">Collector</a>.  <br /></td></tr>
 <tr class="separator:a63586161103d0e0c31c246e79d4f16e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab52f93e4396b0d255144b9142804c6c5"><td class="memItemLeft" align="right" valign="top"><a id="ab52f93e4396b0d255144b9142804c6c5" name="ab52f93e4396b0d255144b9142804c6c5"></a>
-int *&#160;</td><td class="memItemRight" valign="bottom"><b>deleteDirections</b> ()</td></tr>
-<tr class="separator:ab52f93e4396b0d255144b9142804c6c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adca392da66de96fa7c4b49ebd35354ab"><td class="memItemLeft" align="right" valign="top"><a id="adca392da66de96fa7c4b49ebd35354ab" name="adca392da66de96fa7c4b49ebd35354ab"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isEmpty</b> ()</td></tr>
+<tr class="memitem:a34b3a17bfff38087f1eb3151501fb9c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classNode.html">Node</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCollector.html#a34b3a17bfff38087f1eb3151501fb9c4">deleteDirections</a> ()</td></tr>
+<tr class="memdesc:a34b3a17bfff38087f1eb3151501fb9c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Este método extrae una de las direcciones que se pueden reutilizar.  <br /></td></tr>
+<tr class="separator:a34b3a17bfff38087f1eb3151501fb9c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adca392da66de96fa7c4b49ebd35354ab"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCollector.html#adca392da66de96fa7c4b49ebd35354ab">isEmpty</a> ()</td></tr>
+<tr class="memdesc:adca392da66de96fa7c4b49ebd35354ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Método que comprueba si <a class="el" href="classCollector.html">Collector</a> está vacío o no.  <br /></td></tr>
 <tr class="separator:adca392da66de96fa7c4b49ebd35354ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a63586161103d0e0c31c246e79d4f16e6" name="a63586161103d0e0c31c246e79d4f16e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63586161103d0e0c31c246e79d4f16e6">&#9670;&#160;</a></span>addDirections()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Collector::addDirections </td>
+          <td>(</td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Este método añade las direcciones que se desean reciclar a la lista de <a class="el" href="classCollector.html">Collector</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>Puntero que contiene la dirección que se reciclará </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a34b3a17bfff38087f1eb3151501fb9c4" name="a34b3a17bfff38087f1eb3151501fb9c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34b3a17bfff38087f1eb3151501fb9c4">&#9670;&#160;</a></span>deleteDirections()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classNode.html">Node</a> * Collector::deleteDirections </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Este método extrae una de las direcciones que se pueden reutilizar. </p>
+<dl class="section return"><dt>Returns</dt><dd>Devuelve la dirección que se empleará </dd></dl>
+
+</div>
+</div>
+<a id="adca392da66de96fa7c4b49ebd35354ab" name="adca392da66de96fa7c4b49ebd35354ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adca392da66de96fa7c4b49ebd35354ab">&#9670;&#160;</a></span>isEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Collector::isEmpty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Método que comprueba si <a class="el" href="classCollector.html">Collector</a> está vacío o no. </p>
+<dl class="section return"><dt>Returns</dt><dd>Valor booleano </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/oscaraad/TEC/2023SEMI/Datos II/CE2103-Tarea1/Tarea1/<a class="el" href="Collector_8h_source.html">Collector.h</a></li>
-<li>/home/oscaraad/TEC/2023SEMI/Datos II/CE2103-Tarea1/Tarea1/Collector.cpp</li>
+<li>/home/oscaraad/TEC/2023SEMI/Datos II/CE2103-Tarea1/Tarea1/<a class="el" href="Collector_8cpp.html">Collector.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

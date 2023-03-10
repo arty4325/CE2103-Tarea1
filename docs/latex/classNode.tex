@@ -3,3 +3,117 @@
 
 
 Collaboration diagram for Node\+:
+% FIG 0
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classNode_a2c5fe4ecef1aa9623d740582b1425c16}{Node}} (int value)
+\begin{DoxyCompactList}\small\item\em Método constructor de la clase \mbox{\hyperlink{classNode}{Node}}. \end{DoxyCompactList}\item 
+void $\ast$ \mbox{\hyperlink{classNode_ad93f4bb54e5f2759c8f903fd2d740267}{operator new}} (size\+\_\+t size)
+\begin{DoxyCompactList}\small\item\em Método para asignar nuevos nodos según la disponibilidad de nodos en collector. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classNode_ad4e1f721342fb283237c11cff9480a60}{operator delete}} (void $\ast$ptr) noexcept
+\begin{DoxyCompactList}\small\item\em Método para eliminar nodos y enviar las direcciones a collector. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classNode_a8f9eebfa95ac4f4e606fdc9251f9f4bb}\label{classNode_a8f9eebfa95ac4f4e606fdc9251f9f4bb}} 
+void {\bfseries check\+Node} ()
+\begin{DoxyCompactList}\small\item\em Método para revisar el valor de un nodo. \end{DoxyCompactList}\item 
+int $\ast$ \mbox{\hyperlink{classNode_afe21be65b966a0d99b78e948c699b915}{check\+Pointer}} ()
+\begin{DoxyCompactList}\small\item\em Método que permite revisar la dirección de un nodo. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classNode_a91ebe527e75f0baf242e9cb4c8cd58a4}{modify\+Node}} (int value)
+\begin{DoxyCompactList}\small\item\em Método para modificar el valor de un nodo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classNode_aaa0cd30d78a90c5a6ab64eb3d58b8f87}\label{classNode_aaa0cd30d78a90c5a6ab64eb3d58b8f87}} 
+int {\bfseries value}
+\item 
+\mbox{\Hypertarget{classNode_a2559a716f69ccaa76d648d9f1b83065e}\label{classNode_a2559a716f69ccaa76d648d9f1b83065e}} 
+\mbox{\hyperlink{classNode}{Node}} $\ast$ {\bfseries next}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classNode_a2c5fe4ecef1aa9623d740582b1425c16}\label{classNode_a2c5fe4ecef1aa9623d740582b1425c16}} 
+\index{Node@{Node}!Node@{Node}}
+\index{Node@{Node}!Node@{Node}}
+\doxysubsubsection{\texorpdfstring{Node()}{Node()}}
+{\footnotesize\ttfamily Node\+::\+Node (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+
+
+Método constructor de la clase \mbox{\hyperlink{classNode}{Node}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Valor que tomará el nodo \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classNode_afe21be65b966a0d99b78e948c699b915}\label{classNode_afe21be65b966a0d99b78e948c699b915}} 
+\index{Node@{Node}!checkPointer@{checkPointer}}
+\index{checkPointer@{checkPointer}!Node@{Node}}
+\doxysubsubsection{\texorpdfstring{checkPointer()}{checkPointer()}}
+{\footnotesize\ttfamily int $\ast$ Node\+::check\+Pointer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Método que permite revisar la dirección de un nodo. 
+
+\begin{DoxyReturn}{Returns}
+Retorna el puntero de un nodo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNode_a91ebe527e75f0baf242e9cb4c8cd58a4}\label{classNode_a91ebe527e75f0baf242e9cb4c8cd58a4}} 
+\index{Node@{Node}!modifyNode@{modifyNode}}
+\index{modifyNode@{modifyNode}!Node@{Node}}
+\doxysubsubsection{\texorpdfstring{modifyNode()}{modifyNode()}}
+{\footnotesize\ttfamily void Node\+::modify\+Node (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+
+
+Método para modificar el valor de un nodo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classNode_ad4e1f721342fb283237c11cff9480a60}\label{classNode_ad4e1f721342fb283237c11cff9480a60}} 
+\index{Node@{Node}!operator delete@{operator delete}}
+\index{operator delete@{operator delete}!Node@{Node}}
+\doxysubsubsection{\texorpdfstring{operator delete()}{operator delete()}}
+{\footnotesize\ttfamily void Node\+::operator delete (\begin{DoxyParamCaption}\item[{void $\ast$}]{ptr }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+Método para eliminar nodos y enviar las direcciones a collector. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ptr} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classNode_ad93f4bb54e5f2759c8f903fd2d740267}\label{classNode_ad93f4bb54e5f2759c8f903fd2d740267}} 
+\index{Node@{Node}!operator new@{operator new}}
+\index{operator new@{operator new}!Node@{Node}}
+\doxysubsubsection{\texorpdfstring{operator new()}{operator new()}}
+{\footnotesize\ttfamily void $\ast$ Node\+::operator new (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{size }\end{DoxyParamCaption})}
+
+
+
+Método para asignar nuevos nodos según la disponibilidad de nodos en collector. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em size} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/oscaraad/\+TEC/2023\+SEMI/\+Datos II/\+CE2103-\/\+Tarea1/\+Tarea1/\mbox{\hyperlink{Node_8h}{Node.\+h}}\item 
+/home/oscaraad/\+TEC/2023\+SEMI/\+Datos II/\+CE2103-\/\+Tarea1/\+Tarea1/\mbox{\hyperlink{Node_8cpp}{Node.\+cpp}}\end{DoxyCompactItemize}

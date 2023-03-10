@@ -62,10 +62,13 @@ void ListaSimple::deleteHead(){
  * @brief Método que permite mostrar los valores de la lista
  */
 void ListaSimple::printList(){
+    cout << "*********************" << endl;
+    cout << "Estado actual de la lista " << endl;
     Node* current = this->head;
     while(current != nullptr){
         cout << current->value << endl;
         current = current -> next;
     }
+    cout << "*********************" << endl;
 }
 

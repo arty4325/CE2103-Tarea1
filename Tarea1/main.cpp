@@ -30,7 +30,10 @@ int main(){
     lista.deleteHead();
     lista.deleteHead();
     lista.insertHead(4);
+    lista.insertHead(5);
+    lista.insertHead(6);
     lista.printList();
+
 
 }
 

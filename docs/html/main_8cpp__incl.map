@@ -1,8 +1,8 @@
 <map id="/home/oscaraad/TEC/2023SEMI/Datos II/CE2103&#45;Tarea1/Tarea1/main.cpp" name="/home/oscaraad/TEC/2023SEMI/Datos II/CE2103&#45;Tarea1/Tarea1/main.cpp">
 <area shape="rect" id="node1" title="En esta clase se lleva a cabo la ejecución principal del programa." alt="" coords="71,5,268,60"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,108,85,133"/>
-<area shape="rect" id="node3" href="$Node_8h_source.html" title=" " alt="" coords="131,181,199,207"/>
-<area shape="rect" id="node5" href="$Collector_8h_source.html" title=" " alt="" coords="192,255,283,280"/>
-<area shape="rect" id="node6" href="$ListaSimple_8h_source.html" title=" " alt="" coords="161,108,271,133"/>
-<area shape="rect" id="node4" title=" " alt="" coords="97,255,167,280"/>
+<area shape="rect" id="node3" href="$Node_8h.html" title="En esta header se crea la clase Node." alt="" coords="161,255,229,280"/>
+<area shape="rect" id="node5" href="$ListaSimple_8h.html" title="En esta header se crea la clase ListaSimple." alt="" coords="161,108,271,133"/>
+<area shape="rect" id="node6" href="$Collector_8h.html" title="En esta header se crea la clase Collector." alt="" coords="232,181,323,207"/>
+<area shape="rect" id="node4" title=" " alt="" coords="159,328,230,353"/>
 </map>
