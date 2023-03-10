@@ -12,7 +12,7 @@ private:
     Node* head;
 public:
     Collector();
-    void addDirections(int &Direction);
+    void addDirections(auto &Direction);
     //int checkAvailableDirections();
     Node* deleteDirections();
     bool isEmpty();

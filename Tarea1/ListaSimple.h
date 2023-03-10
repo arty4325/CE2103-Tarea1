@@ -14,7 +14,7 @@
  */
 class ListaSimple{
 private:
-    static Node* head;
+    Node* head;
     static Collector collector;
 
 public:
@@ -23,8 +23,8 @@ public:
     void setHead(Node* newHead);
     void insertHead(int value);
     void printList();
-    void* operator new(size_t size, int value);
-    void operator delete(void* ptr) noexcept;
+    //void* operator new(size_t size, int value);
+    //void operator delete(void* ptr) noexcept;
 
 };
 #endif //CE2103_TAREA1_LISTASIMPLE_H

@@ -3,24 +3,14 @@
 //
 #include <iostream>
 #include "Node.h"
+
+
 using namespace std;
-Node::Node(auto value){
-    Collector collector;
+Node::Node(int value){
     this->value = value;
     this->next = nullptr;
 }
 
-void *Node::operator new(size_t size){
-    bool check = collector.isEmpty();
-    if(check){
-        void * p = malloc(size);
-
-    }
-}
-
-void Node::operator delete(void* ptr) noexcept{
-
-}
 
 int* Node::checkPointer(){
     this->value = value;
@@ -34,3 +24,6 @@ void Node::checkNode(){
 void Node::modifyNode(int value){
     this->value = value;
 }
+
+
+

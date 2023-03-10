@@ -27,13 +27,14 @@ int main(){
     lista.insertHead(3);
     lista.printList();
 
+    /*
     Node* n = new Node(5);
     n->checkNode();
     n->modifyNode(7);
     n->checkNode();
 
     Collector collector;
-
+    */
 }
 
 
