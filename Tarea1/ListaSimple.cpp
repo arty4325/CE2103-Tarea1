@@ -23,10 +23,17 @@ void ListaSimple::insertHead(int value){
     newNode -> next = this -> head;
     this -> head = newNode;
 }
-void *ListaSimple::operator new(size_t size){
-
-
-
+void* ListaSimple::operator new(size_t size, int value){
+    if (collector.isEmpty() == 0){
+        Node* newNode = new Node(value);
+        void* ptr = static_cast<void*>(newNode);
+        return ptr;
+    } else{
+        Node* newNode = collector.deleteDirections();
+        newNode->modifyNode(value);
+        newNode -> next = head;
+        head = newNode;
+    }
 }
 
 void ListaSimple::operator delete(void* ptr) noexcept{

@@ -15,10 +15,10 @@ void Collector::addDirections(int &value) {
     newNode -> next = this -> head;
     this -> head = newNode;
 }
-int* Collector::deleteDirections(){
+Node* Collector::deleteDirections(){
     Node* temp = head;
     this -> head = head -> next;
-    return temp->checkPointer();
+    return temp;
 }
 
 bool Collector::isEmpty(){

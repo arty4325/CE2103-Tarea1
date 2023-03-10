@@ -14,7 +14,7 @@ public:
     Collector();
     void addDirections(int &Direction);
     //int checkAvailableDirections();
-    int* deleteDirections();
+    Node* deleteDirections();
     bool isEmpty();
 };
 #endif //CE2103_TAREA1_COLLECTOR_H

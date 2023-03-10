@@ -7,9 +7,14 @@
 #include "Node.h"
 #include "Collector.h"
 
+
+/**
+ * @authors Jorge Guillen y Oscar Acuna
+ *
+ */
 class ListaSimple{
 private:
-    Node* head;
+    static Node* head;
     static Collector collector;
 
 public:
@@ -18,7 +23,7 @@ public:
     void setHead(Node* newHead);
     void insertHead(int value);
     void printList();
-    void* operator new(size_t size);
+    void* operator new(size_t size, int value);
     void operator delete(void* ptr) noexcept;
 
 };
