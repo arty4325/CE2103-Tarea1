@@ -1,17 +1,19 @@
 #include <iostream>
+#include "Collector.h"
 using namespace std;
 
+class Node;
 class ListaSimple;
 class Collector;
-class Node;
 
-class Node: public Collector{
+
+class Node{
 private:
-    ListaSimple lista;
+    //ListaSimple lista;
 public:
     int value;
     Node* next;
-    ListaSimple lista = new Collector();
+    //ListaSimple lista = new Collector();
     Node(int value){
         this->value = value;
         this->next = nullptr;
@@ -52,7 +54,7 @@ public:
         }
     }
 };
-class Collector: public ListaSimple{
+/*class Collector: public ListaSimple{
 private:
 public:
     Collector(){
@@ -72,7 +74,7 @@ public:
         Head = Head->next;
     }
 }
-};
+};*/
 
 
 int main(){
