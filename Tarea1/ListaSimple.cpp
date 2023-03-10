@@ -5,7 +5,9 @@
 #include "ListaSimple.h"
 #include <iostream>
 
+
 using namespace std;
+
 
 ListaSimple::ListaSimple() {
     this->head = nullptr;

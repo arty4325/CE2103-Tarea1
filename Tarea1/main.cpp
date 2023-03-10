@@ -12,6 +12,7 @@
 #include "ListaSimple.h"
 #include "Collector.h"
 
+
 using namespace std;
 
 /**
@@ -19,6 +20,7 @@ using namespace std;
  * @return
  */
 int main(){
+
     ListaSimple lista;
 
 

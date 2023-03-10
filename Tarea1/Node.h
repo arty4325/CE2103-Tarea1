@@ -13,7 +13,7 @@ public:
     int value;
     Node* next;
     Node(int value);
-    //void* operator new(size_t size);
+    void* operator new(size_t size);
     //void operator delete(void* ptr) noexcept;
     void checkNode();
     int* checkPointer();

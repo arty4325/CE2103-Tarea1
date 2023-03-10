@@ -3,7 +3,9 @@
 //
 #include <iostream>
 #include "Node.h"
-
+#include "ListaSimple.h"
+#include "Collector.h"
+Collector collector;
 
 using namespace std;
 Node::Node(int value){
@@ -25,5 +27,15 @@ void Node::modifyNode(int value){
     this->value = value;
 }
 
+
+void *Node::operator new(size_t size){
+    if (!collector.isEmpty()){
+        void * p = ::operator new(size);
+        return p;
+    } else {
+        void * p = reinterpret_cast<void *>(collector.deleteDirections());
+        return p;
+    }
+}
 
 
