@@ -8,6 +8,7 @@
 class Collector{
 public:
     Collector();
-    void hola();
+    void addDirections(int &Direction);
+    int checkAvailableDirections();
 };
 #endif //CE2103_TAREA1_COLLECTOR_H
