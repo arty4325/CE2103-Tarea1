@@ -27,6 +27,8 @@ int main(){
     lista.insertHead(1);
     lista.insertHead(2);
     lista.insertHead(3);
+    lista.deleteHead();
+    lista.deleteHead();
     lista.printList();
 
     /*

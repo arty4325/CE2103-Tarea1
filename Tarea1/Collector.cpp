@@ -10,7 +10,7 @@ using namespace std;
 Collector::Collector() {
     this -> head = nullptr;
 };
-void Collector::addDirections(auto &value) {
+void Collector::addDirections(int &value) {
     Node* newNode = new Node(value);
     newNode -> next = this -> head;
     this -> head = newNode;

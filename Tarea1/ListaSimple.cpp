@@ -22,11 +22,16 @@ void ListaSimple::insertHead(int value){
     Node* newNode = new Node(value);
     newNode -> next = this -> head;
     this -> head = newNode;
-    /*
-    Node* newNode = new Node(value);
-    newNode -> next = this -> head;
-    this -> head = newNode;
-     */
+}
+
+void ListaSimple::deleteHead(){
+    if(head != nullptr){
+        Node* temp = head;
+        head = head -> next;
+        temp -> next = nullptr;
+        delete temp;
+    }
+
 }
 void ListaSimple::printList(){
     Node* current = this->head;
@@ -36,21 +41,3 @@ void ListaSimple::printList(){
     }
 }
 
-
-/*
-void *ListaSimple::operator new(size_t size, int value){
-    if (collector.isEmpty() == 0){
-        Node* newNode = new Node(value);
-        void* ptr = static_cast<void*>(newNode);
-        return ptr;
-    } else{
-        Node* newNode = collector.deleteDirections();
-        newNode->modifyNode(value);
-        newNode -> next = head;
-        head = newNode;
-    }
-}
-void ListaSimple::operator delete(void* ptr) noexcept{
-
-}
-*/

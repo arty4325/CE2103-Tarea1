@@ -38,4 +38,10 @@ void *Node::operator new(size_t size){
     }
 }
 
+void Node::operator delete(void* ptr) noexcept{
+    collector.addDirections(reinterpret_cast<int &>(ptr));
+    free(ptr);
+    cout << "Se borra " << endl;
+}
+
 

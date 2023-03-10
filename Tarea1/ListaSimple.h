@@ -22,6 +22,7 @@ public:
     Node* getHead();
     void setHead(Node* newHead);
     void insertHead(int value);
+    void deleteHead();
     void printList();
     //void* operator new(size_t size, int value);
     //void operator delete(void* ptr) noexcept;

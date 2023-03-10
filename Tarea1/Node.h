@@ -14,7 +14,7 @@ public:
     Node* next;
     Node(int value);
     void* operator new(size_t size);
-    //void operator delete(void* ptr) noexcept;
+    void operator delete(void* ptr) noexcept;
     void checkNode();
     int* checkPointer();
     void modifyNode(int value);
