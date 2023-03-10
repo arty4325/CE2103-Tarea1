@@ -30,10 +30,14 @@ void Node::modifyNode(int value){
 
 void *Node::operator new(size_t size){
     if (!collector.isEmpty()){
+        cout << "Se creo nueva direccion " << endl;
         void * p = ::operator new(size);
+        cout << p << " NUEVO" << endl;
         return p;
     } else {
+        cout << "Se hizo uso de una direccion vieja " << endl;
         void * p = reinterpret_cast<void *>(collector.deleteDirections());
+        cout << p << " VIEJO" << endl;
         return p;
     }
 }
@@ -41,7 +45,6 @@ void *Node::operator new(size_t size){
 void Node::operator delete(void* ptr) noexcept{
     collector.addDirections(reinterpret_cast<int &>(ptr));
     free(ptr);
-    cout << "Se borra " << endl;
 }
 
 

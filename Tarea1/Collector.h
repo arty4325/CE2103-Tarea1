@@ -6,7 +6,15 @@
 #define CE2103_TAREA1_COLLECTOR_H
 #include "Node.h"
 
-
+/**
+* @file Collector.h
+* @authors Jorge Guillén y Oscar Acuña
+* @brief En esta header se crea la clase Collector
+* @version 0.1
+* @date 10-3-2023
+*
+* @copyright Copyright (c) 2023
+*/
 class Collector{
 private:
     Node* head;

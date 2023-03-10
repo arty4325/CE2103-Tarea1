@@ -9,9 +9,14 @@
 
 
 /**
- * @authors Jorge Guillen y Oscar Acuna
- *
- */
+* @file ListaSimple.h
+* @authors Jorge Guillén y Oscar Acuña
+* @brief En esta header se crea la clase ListaSimple
+* @version 0.1
+* @date 10-3-2023
+*
+* @copyright Copyright (c) 2023
+*/
 class ListaSimple{
 private:
     Node* head;

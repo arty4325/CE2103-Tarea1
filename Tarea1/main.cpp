@@ -29,16 +29,9 @@ int main(){
     lista.insertHead(3);
     lista.deleteHead();
     lista.deleteHead();
+    lista.insertHead(4);
     lista.printList();
 
-    /*
-    Node* n = new Node(5);
-    n->checkNode();
-    n->modifyNode(7);
-    n->checkNode();
-
-    Collector collector;
-    */
 }
 
 
