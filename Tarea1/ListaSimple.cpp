@@ -47,7 +47,9 @@ void ListaSimple::insertHead(int value){
     newNode -> next = this -> head;
     this -> head = newNode;
 }
-
+/**
+ * @brief Método que permite eliminar nodos de la lista
+ */
 void ListaSimple::deleteHead(){
     if(head != nullptr){
         Node* temp = head;
@@ -56,6 +58,9 @@ void ListaSimple::deleteHead(){
         delete temp;
     }
 }
+/**
+ * @brief Método que permite mostrar los valores de la lista
+ */
 void ListaSimple::printList(){
     Node* current = this->head;
     while(current != nullptr){
