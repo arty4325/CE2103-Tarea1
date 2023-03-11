@@ -1,0 +1,42 @@
+\hypertarget{classNode}{}\doxysection{Node Class Reference}
+\label{classNode}\index{Node@{Node}}
+
+
+Collaboration diagram for Node\+:
+% FIG 0
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classNode_abf3576ab65a44563d2e5fe8ed34e97c3}\label{classNode_abf3576ab65a44563d2e5fe8ed34e97c3}} 
+{\bfseries Node} (auto value)
+\item 
+\mbox{\Hypertarget{classNode_ad93f4bb54e5f2759c8f903fd2d740267}\label{classNode_ad93f4bb54e5f2759c8f903fd2d740267}} 
+void $\ast$ {\bfseries operator new} (size\+\_\+t size)
+\item 
+\mbox{\Hypertarget{classNode_ad4e1f721342fb283237c11cff9480a60}\label{classNode_ad4e1f721342fb283237c11cff9480a60}} 
+void {\bfseries operator delete} (void $\ast$ptr) noexcept
+\item 
+\mbox{\Hypertarget{classNode_a8f9eebfa95ac4f4e606fdc9251f9f4bb}\label{classNode_a8f9eebfa95ac4f4e606fdc9251f9f4bb}} 
+void {\bfseries check\+Node} ()
+\item 
+\mbox{\Hypertarget{classNode_afe21be65b966a0d99b78e948c699b915}\label{classNode_afe21be65b966a0d99b78e948c699b915}} 
+int $\ast$ {\bfseries check\+Pointer} ()
+\item 
+\mbox{\Hypertarget{classNode_a91ebe527e75f0baf242e9cb4c8cd58a4}\label{classNode_a91ebe527e75f0baf242e9cb4c8cd58a4}} 
+void {\bfseries modify\+Node} (int value)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classNode_aaa0cd30d78a90c5a6ab64eb3d58b8f87}\label{classNode_aaa0cd30d78a90c5a6ab64eb3d58b8f87}} 
+int {\bfseries value}
+\item 
+\mbox{\Hypertarget{classNode_a2559a716f69ccaa76d648d9f1b83065e}\label{classNode_a2559a716f69ccaa76d648d9f1b83065e}} 
+\mbox{\hyperlink{classNode}{Node}} $\ast$ {\bfseries next}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/jorge/\+CE2103-\/\+Tarea1/\+Tarea1/Node.\+h\item 
+/home/jorge/\+CE2103-\/\+Tarea1/\+Tarea1/Node.\+cpp\end{DoxyCompactItemize}

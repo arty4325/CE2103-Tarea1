@@ -1,3 +1,12 @@
+/**
+ * @file main.cpp
+ * @authors Jorge Guillén y Oscar Acuña
+ * @brief En esta clase se lleva a cabo la ejecución principal del programa
+ * @version 0.1
+ * @date 10-3-2023
+ *
+ * @copyright Copyright (c) 2023
+ */
 #include <iostream>
 #include "Node.h"
 #include "ListaSimple.h"
@@ -5,6 +14,10 @@
 
 using namespace std;
 
+/**
+ * @brief Método de ejecución del programa
+ * @return
+ */
 int main(){
     ListaSimple lista;
 
